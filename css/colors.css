@@ -1,0 +1,115 @@
+/*--------------------------------------*/
+/*--------------- Colors ---------------*/
+
+.news__color::before{
+	background: #005da1;
+}
+.city__color::before{
+	background: #e0ea1c;
+}
+.investigation__color::before{
+	background: #e74b0d;
+}
+.tourist__color::before{
+	background: #88d62d;
+}
+.poster__color::before{
+	background: #a864a8;
+}
+.adj__color::before{
+	background: #9d9d9d;
+}
+/*---------------------------------------------------*/
+/*--------------- Hover Colors Header ---------------*/
+.navHeader>li>.nav__link.news__color:hover, .navHeader>li>.nav__link.news__color:focus{
+	background: #005da1;
+	background: -moz-linear-gradient(top,  #005da1 10%, #ffffff 100%);
+	background: -webkit-linear-gradient(top,  #005da1 10%,#ffffff 100%);
+	background: linear-gradient(to bottom,  #005da1 10%,#ffffff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005da1', endColorstr='#ffffff',GradientType=0 );
+}
+.navHeader>li>.nav__link.city__color:hover, .navHeader>li>.nav__link.city__color:focus{
+	background: #e0ea1c;
+	background: -moz-linear-gradient(top,  #e0ea1c 10%, #ffffff 100%);
+	background: -webkit-linear-gradient(top,  #e0ea1c 10%,#ffffff 100%);
+	background: linear-gradient(to bottom,  #e0ea1c 10%,#ffffff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0ea1c', endColorstr='#ffffff',GradientType=0 );
+}
+.navHeader>li>.nav__link.investigation__color:hover, .navHeader>li>.nav__link.investigation__color:focus{
+	background: #e74b0d;
+	background: -moz-linear-gradient(top,  #e74b0d 10%, #ffffff 100%);
+	background: -webkit-linear-gradient(top,  #e74b0d 10%,#ffffff 100%);
+	background: linear-gradient(to bottom,  #e74b0d 10%,#ffffff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e74b0d', endColorstr='#ffffff',GradientType=0 );
+}
+.navHeader>li>.nav__link.tourist__color:hover, .navHeader>li>.nav__link.tourist__color:focus{
+	background: #88d62d;
+	background: -moz-linear-gradient(top,  #88d62d 10%, #ffffff 100%);
+	background: -webkit-linear-gradient(top,  #88d62d 10%,#ffffff 100%);
+	background: linear-gradient(to bottom,  #88d62d 10%,#ffffff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#88d62d', endColorstr='#ffffff',GradientType=0 );
+}
+.navHeader>li>.nav__link.poster__color:hover, .navHeader>li>.nav__link.poster__color:focus{
+	background: #a864a8;
+	background: -moz-linear-gradient(top,  #a864a8 10%, #ffffff 100%);
+	background: -webkit-linear-gradient(top,  #a864a8 10%,#ffffff 100%);
+	background: linear-gradient(to bottom,  #a864a8 10%,#ffffff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a864a8', endColorstr='#ffffff',GradientType=0 );
+}
+/*---------------------------------------------------*/
+/*--------------- Hover Colors Footer ---------------*/
+.nav__link_footer.news__color:hover, .nav__link_footer.news__color:focus{
+	background: #005da1;
+	background: -moz-linear-gradient(top,  #353535 0%, #005da1 90%);
+	background: -webkit-linear-gradient(top,  #353535 0%,#005da1 90%);
+	background: linear-gradient(to bottom,  #353535 0%,#005da1 90%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#353535', endColorstr='#005da1',GradientType=0 );
+}
+.nav__link_footer.city__color:hover, .nav__link_footer.city__color:focus{
+	background: #e0ea1c;
+	background: -moz-linear-gradient(top,  #353535 0%, #e0ea1c 90%);
+	background: -webkit-linear-gradient(top,  #353535 0%,#e0ea1c 90%);
+	background: linear-gradient(to bottom,  #353535 0%,#e0ea1c 90%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#353535', endColorstr='#e0ea1c',GradientType=0 );
+}
+.nav__link_footer.investigation__color:hover, .nav__link_footer.investigation__color:focus{
+	background: #e74b0d;
+	background: -moz-linear-gradient(top,  #353535 0%, #e74b0d 90%);
+	background: -webkit-linear-gradient(top,  #353535 0%,#e74b0d 90%);
+	background: linear-gradient(to bottom,  #353535 0%,#e74b0d 90%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#353535', endColorstr='#e74b0d',GradientType=0 );
+}
+.nav__link_footer.tourist__color:hover, .nav__link_footer.tourist__color:focus{
+	background: #88d62d;
+	background: -moz-linear-gradient(top,  #353535 0%, #88d62d 90%);
+	background: -webkit-linear-gradient(top,  #353535 0%,#88d62d 90%);
+	background: linear-gradient(to bottom,  #353535 0%,#88d62d 90%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#353535', endColorstr='#88d62d',GradientType=0 );
+}
+.nav__link_footer.poster__color:hover, .nav__link_footer.poster__color:focus{
+	background: #a864a8;
+	background: -moz-linear-gradient(top,  #353535 0%, #a864a8 90%);
+	background: -webkit-linear-gradient(top,  #353535 0%,#a864a8 90%);
+	background: linear-gradient(to bottom,  #353535 0%,#a864a8 90%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#353535', endColorstr='#a864a8',GradientType=0 );
+}
+/*-----------------------------*/
+/*------- Button Colors -------*/
+.news__btn{
+	background: #005da1;
+}
+.city__btn{
+	background: #e0ea1c;
+}
+.investigation__btn{
+	background: #e74b0d;
+}
+.tourist__btn{
+	background: #88d62d;
+}
+.poster__btn{
+	background: #a864a8;
+}
+.main__btn{
+	background: #9d9d9d;
+}
