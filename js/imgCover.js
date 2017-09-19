@@ -1,25 +1,25 @@
-function ImgCover(sSelector){
+function ImgCover(sSelector) {
 
-	var i = this;
-	
-	i.articles = $( sSelector );
-	i.wrap = i.articles.find( ".articleImg__wrap" );
-	i.img = i.wrap.find( ".article__img");
+  var i = this;
 
-	i.cover = function(){
-		$( i.wrap ).each( function(){
+  i.articles = $(sSelector);
+  i.wrap = i.articles.find('.articleImg__wrap');
+  i.img = i.wrap.find('.article__img');
 
-			var img = $( this ).find( ".article__img" ),
-				src = img.attr( "src" );
-			
-			$( this ).css( { "background": "url(" + src + ") no-repeat scroll center center" } );
-			$( this ).css( { "backgroundSize": "cover" } );
+  i.cover = function () {
+   $(i.wrap).each(function () {
 
-		} );
-		
-		i.img.hide();
+    var img = $(this).find('.article__img'),
+     src = img.attr('src');
 
-	};
+    $(this).css({ background: 'url(' + src + ') no-repeat scroll center center' } );
+    $( this ).css( { "backgroundSize": "cover" } );
+
+   } );
+
+   i.img.hide();
+
+  };
 
 	$(document).ready(i.cover);
 

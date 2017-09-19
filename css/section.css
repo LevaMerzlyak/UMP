@@ -1,27 +1,29 @@
 /*--------------- Articles ---------------*/
-.articles__wrap{
+.articles__wrap {
 	margin-top: 20px;
 }
-@media only screen and (min-device-width : 865px) and (max-device-width : 1060px){
-	.articles__wrap{
+@media only screen and (min-device-width : 865px) and (max-device-width : 1060px) {
+	.articles__wrap {
 		margin-top: 80px;
 	}
 }
-@media only screen and (min-width : 1279px){
-	.articles__wrap>.row>.article__item:first-child>.article__link>.articleImg__wrap{
+@media only screen and (min-width : 1279px) {
+	.articles__wrap > .row > .article__item:first-child > .article__link > .articleImg__wrap {
 		height: 525px;
 	}
-	.articles__wrap>.row>.article__item:first-child>.article__link>.articleTxt__wrap{
+	.articles__wrap > .row > .article__item:first-child > .article__link > .articleTxt__wrap {
 		position: relative;
 	}
-	.articles__wrap>.row>.article__item:first-child>.article__link>.articleTxt__wrap>.article__header{
-		position: absolute;
-		top: -120px;
+	.articles__wrap > .row > .article__item:first-child > .article__link > .articleTxt__wrap > .article__header {
 		font-size: 24px;
 		line-height: 32px;
+
+		position: absolute;
+		top: -120px;
+
 		color: #ffffff;
 	}
-	.articles__wrap>.row>.article__item:first-child>.article__link>.articleTxt__wrap>.article__txt{
+	.articles__wrap > .row > .article__item:first-child > .article__link > .articleTxt__wrap > .article__txt {
 		padding-top: 15px;
 	}
 }
